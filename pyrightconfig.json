@@ -1,0 +1,10 @@
+
+{
+  "$schema": "https://raw.githubusercontent.com/DetachHead/basedpyright/main/packages/vscode-config-schema/schema.json",
+  "typeCheckingMode": "off",          // or "basic" instead of "strict"
+  "reportMissingImports": "none",     // hide missing import errors
+  "reportUnusedVariable": "none",     // hide unused variable warnings
+  "reportUnusedImport": "none",       // hide unused import warnings
+  "reportOptionalMemberAccess": "none",
+  "reportOptionalSubscript": "none"
+}
