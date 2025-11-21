@@ -139,6 +139,6 @@ if __name__ == "__main__":
     if args.index == 0:
         trainer.train()
     else:
-        trainer.trian(resume_from_checkpoint=True)
+        trainer.train(resume_from_checkpoint=True)
 
     trainer.save_state()
