@@ -59,7 +59,7 @@ uv run debertinha/download_and_tokenize.py --index 0
 uv run debertinha/download_and_tokenize.py --index 1 &
 
 # train on index 0
-uv run debertinha/train --index 0
+uv run debertinha/train.py --index 0
 
 #etc..
 ```
